@@ -54,9 +54,7 @@ html{
 
 #tabla{color:white;
   background:green;
-  margin-top:20px;
-  margin-bottom:20px;
-  margin-left:20%;
+  margin:20px 20%;
 }
 
 .imagen{
@@ -65,7 +63,7 @@ html{
   border-color:green;
   margin-top:20px;
   margin-bottom:20px;
-  margin-left:20%;
+  margin-left:15%;
 }
 #gotze{
   border-style:solid;
@@ -73,5 +71,5 @@ html{
   border-color:darkkhaki;
   margin-top:20px;
   margin-bottom:20px;
-  margin-left:20%;
+  margin-left:15%;
 }
