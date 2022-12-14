@@ -8,13 +8,11 @@
 *{
   padding:0;
   margin:0;
-  text-decoration:none;
-  list-style:none;
   box-sizing:border-box;
   font-family:Arial;
 }
 
-nav{background:lightskyblue;
+nav{background:gray;
   height:70px;
   width:100%;
  }
@@ -47,4 +45,27 @@ nav ul li a {
 a.active, a:hover{
   background:violet;
   transition:0.5s;
+}
+
+html{
+  background:lightskyblue;
+  text-align:center;
+}
+
+#tabla{color:white;
+  background:green;
+  margin:20px 20%;
+}
+
+.imagen{
+  border-style:solid;
+  border-width:3px;
+  border-color:green;
+  margin:20px 35%;
+}
+#gotze{
+  border-style:solid;
+  border-width:5px;
+  border-color:darkkhaki;
+  margin:20px 30%;
 }
