@@ -98,7 +98,6 @@ ol{
   margin-left:1%;}
 
 .box{margin:5px;
-  background:#4574C5;
   height:100px;
   width:180px;
   padding:3px;
@@ -112,8 +111,9 @@ ol{
 }
 
 #dos{
-   height:90px;
+   height:80px;
    border:2px dashed yellow;
+   font-weight:bold;
 }
 
 .pai{
