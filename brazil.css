@@ -124,13 +124,14 @@ ol{
   flex-direction:column;
   justify-content:center;
   height:2360px;
-  width:90%;
-  max-width:90%;
-  margin-left:20%;
-  margin-right:10%;
+  width:950px;
+  max-width:950px;
+  margin-left:5%;
+  margin-right:5%;
   background-color:grey;
   overflow:auto;
-  margin-bottom:95px;}
+  margin-bottom:95px;
+  padding:10px;}
   
   .pai a:hover{
   background-color:white;}
@@ -174,6 +175,6 @@ ol{
 }
 
 @keyframes tiro{
-  from{transform:translate3d(0,-6px,0);} to{transform:translate3d(1000px,-6px,0);
+  from{transform:translate3d(0,-6px,0);} to{transform:translate3d(600px,-6px,0);
   } 
 }
