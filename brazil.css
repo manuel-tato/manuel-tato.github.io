@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
-#titulo{background:darkgreen;
+#titulo{background:#854f42;
   text-align:center;
-  color:steelblue;
+  color:#4a4330;
   height:100px; 
   margin-top:50px;
   line-height:90px;
@@ -15,8 +15,7 @@
   font-family:Arial;
 }
 
-nav{background: rgb(191,96,13);
-background: linear-gradient(107deg, rgba(191,96,13,1) 0%, rgba(138,58,8,0.9948354341736695) 17%, rgba(174,180,29,1) 34%, rgba(204,18,18,1) 43%, rgba(70,17,140,1) 59%, rgba(6,190,37,1) 78%, rgba(0,91,255,1) 100%);
+nav{background-color:#5c3233;
   height:70px;
   width:100%;
   position:fixed;
@@ -42,7 +41,7 @@ nav ul li{
 }
 
 nav ul li a {
-  color:yellow;
+  color:#2a1c11;
   font-size:17px;
   padding:7px 7px;
   border-radius:3px;
@@ -51,26 +50,27 @@ nav ul li a {
 }
 
  a:hover{
-  background:black;
+  background:#c49f64;
   transition:1s;
 }
 
 html{
-  background: rgb(191,96,13);
-background: linear-gradient(107deg, rgba(191,96,13,1) 0%, rgba(138,58,8,0.9948354341736695) 17%, rgba(174,180,29,1) 34%, rgba(204,18,18,1) 43%, rgba(70,17,140,1) 59%, rgba(6,190,37,1) 78%, rgba(0,91,255,1) 100%);
+  background-color:#b57a54;
   text-align:center;
   min-width:90%;
+  
 }
 
 #tabla{color:white;
-  background:green;
+  background:#854f42;
+  border-color:#5c3233;
   margin:30px auto;
 }
 
 .imagen{
   border-style:solid;
   border-width:3px;
-  border-color:green;
+  border-color:#854f42;
   margin:20px 0;
 }
 #gotze{
@@ -93,26 +93,26 @@ ol{
   flex-wrap:wrap;
   flex-direction:column;
   align-content:start;
-  height:560px;
+  height:460px;
   width:200px;
-  margin-left:1%;}
+  margin-left:1%;
+  background-color:#eab56d;}
 
 .box{margin:5px;
   height:100px;
   width:180px;
   padding:3px;
   box-sizing:border-box;
-  border: 2px dotted;}
+  border:2px solid #854f42;
+  background:#b57a54;}
 
 #uno{
   height:239px;
   padding:0px;
-  border:2px solid yellow;
 }
 
 #dos{
    height:80px;
-   border:2px dashed yellow;
    font-weight:bold;
 }
 
@@ -128,13 +128,13 @@ ol{
   max-width:950px;
   margin-left:5%;
   margin-right:5%;
-  background-color:grey;
+  background-color:#eab56d;
   overflow:auto;
   margin-bottom:95px;
   padding:10px;}
   
   .pai a:hover{
-  background-color:white;}
+  background-color:#5c3233;}
 
 .pai h3{
    font-family:Rowdies;}
@@ -154,10 +154,10 @@ ol{
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FF8C00, 0 0 40px #FF8C00, 0 0 50px #FF8C00, 0 0 60px #FF8C00, 0 0 70px #FF8C00;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0045ee, 0 0 40px #0045ee, 0 0 50px #0045ee, 0 0 60px #0045ee, 0 0 70px #0045ee;
   }
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #B8860B, 0 0 40px #B8860B, 0 0 50px #B8860B, 0 0 60px #B8860B, 0 0 70px #B8860B, 0 0 80px #B8860B;
+    text-shadow: 0 0 20px #fff, 0 0 30px #2fbd21, 0 0 40px #2fbd21, 0 0 50px #2fbd21, 0 0 60px #2fbd21, 0 0 70px #2fbd21, 0 0 80px #2fbd21;
   }
 }
 
@@ -167,7 +167,7 @@ ol{
   border-radius:50%;
   border:3px solid;
   background-color:steelblue;
-  animation:tiro 1s ease-out;
+  animation:tiro 2s ease-out;
   animation-direction:alternate;
   animation-iteration-count:infinite;
   background-image:url(https://th.bing.com/th/id/OIP._TxHNWW4W9QPdWag6HcOTwAAAA?pid=ImgDet&w=288&h=284&rs=1);
