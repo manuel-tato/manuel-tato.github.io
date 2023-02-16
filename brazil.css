@@ -58,7 +58,6 @@ html{
   background-color:#b57a54;
   text-align:center;
   min-width:90%;
-  
 }
 
 #tabla{color:white;
@@ -141,7 +140,9 @@ ol{
 
 #menu{
   display:flex;
+  justify-content:center;
 }
+
 
 .glow{
    font-size: 40px;
@@ -167,7 +168,7 @@ ol{
   border-radius:50%;
   border:3px solid;
   background-color:steelblue;
-  animation:tiro 2s ease-out;
+  animation:tiro 1s ease-out;
   animation-direction:alternate;
   animation-iteration-count:infinite;
   background-image:url(https://th.bing.com/th/id/OIP._TxHNWW4W9QPdWag6HcOTwAAAA?pid=ImgDet&w=288&h=284&rs=1);
