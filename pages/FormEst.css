@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+#titulo{
+  background:#854f42;
+  text-align:center;
+  color:#eab56d;
+  height:100px; 
+  line-height:100px;
+  font-family:Rowdies;
+}
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+html{
+  background-color:#b57a54;
+  text-align:center;
+  min-width:90%;
+}
+form{
+  text-align:center;
+  margin-right:5%;
+  margin-left: 5%;}
+
+input[type="text"]{
+border: solid #854f42 2px;}
+
+label{
+ width:100px; 
+ display: inline-block;}
+
+input{
+  width:500px;}
+
+input:required:empty {
+  background-color: #eab56d;}
+
+input:active {
+  border:solid #2a1c11 5px;}
+
+input[type="submit"]{
+  width:60px;
+  height:60px;}

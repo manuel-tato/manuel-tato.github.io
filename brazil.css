@@ -91,8 +91,8 @@ ol{
   display:flex;
   flex-wrap:wrap;
   flex-direction:column;
-  align-content:start;
-  height:460px;
+  align-content:center;
+  height:440px;
   width:200px;
   margin-left:1%;
   background-color:#eab56d;}
@@ -115,6 +115,11 @@ ol{
    font-weight:bold;
 }
 
+#tres{
+   height:80px;
+   font-weight:bold;
+}
+
 .pai{
   border: 2px black solid;
   box-sizing:border-box;
@@ -133,16 +138,20 @@ ol{
   padding:10px;}
   
   .pai a:hover{
-  background-color:#5c3233;}
+  background-color:#5c3233;
+  color:#eab56d;}
 
 .pai h3{
    font-family:Rowdies;}
+
+.pai #formulario{
+  margin-top:10px;
+  font-family:Rowdies;}
 
 #menu{
   display:flex;
   justify-content:center;
 }
-
 
 .glow{
    font-size: 40px;
@@ -168,7 +177,7 @@ ol{
   border-radius:50%;
   border:3px solid;
   background-color:steelblue;
-  animation:tiro 1s ease-out;
+  animation:tiro 0.7s ease-out;
   animation-direction:alternate;
   animation-iteration-count:infinite;
   background-image:url(https://th.bing.com/th/id/OIP._TxHNWW4W9QPdWag6HcOTwAAAA?pid=ImgDet&w=288&h=284&rs=1);
