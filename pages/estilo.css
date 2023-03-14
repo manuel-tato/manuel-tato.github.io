@@ -10,43 +10,40 @@
 *{
   padding:0;
   margin:0;
-  box-sizing:border-box;
-  font-family:Arial;}
+  box-sizing:border-box;}
 
 html{
   background-color:#b57a54;
   text-align:center;
-  min-width:90%;}
+  min-width:90%;
+  font-family:Arial;}
 
-nav{
+.nav{
+  padding:30px;
   background-color:#5c3233;
-  height:70px;
+  box-sizing:border-box;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  align-content:center;
+  justify-content:space-around;
+  height:60px;
   width:100%;
+  color:white;
   position:fixed;}
 
-label.indice{color:white;
-  font-size:45px;
-  line-height:75px;
-  padding:0 20px;
-  font-weight:bold;
-  font-family:Rowdies;}
+.caixa{
+  font-family:Rowdies;
+  height:30px;
+  width:80px;
+  padding:0px;
+  box-sizing:border-box;
+  text-align:center;
+  color:white;
+  font-size:20px;}
 
-nav ul{
-  float:right;
-  margin-right:20px; }
-
-nav ul li{
-  display:inline-block;
-  line-height:80px;
-  margin:0 5px;}
-
-nav ul li a {
-  color:#2a1c11;
-  font-size:17px;
-  padding:7px 7px;
-  border-radius:3px;
-  font-weight:bold;
-  font-family:Rowdies;}
+a{
+  color:#2a1c11;}
 
 a:hover{
   background:#c49f64;
@@ -127,3 +124,53 @@ iframe{
 #ocho{
   background-image: url(https://th.bing.com/th/id/OIP.bNDcf2dy4e8SCvNaCrDfuAAAAA?pid=ImgDet&rs=1);
   background-size:320px 440px;}
+  
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 1px) { 
+  .listaJugadores{display:grid;
+    grid-template-columns:1fr;
+  grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-areas: 
+    "uno"
+    "dos" 
+    "tres" 
+    "cuatro"
+    "cinco"
+    "seis" 
+    "siete" 
+    "ocho"}
+  .nav{display:none;}
+   #titulo{
+    height:200px;
+    max-width:100%;
+    line-height:60px;
+  }
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 800px) { 
+   .listaJugadores{display:grid;
+    grid-template-columns:1fr 1fr;
+  grid-template-rows:1fr 1fr 1fr 1fr;}
+  .nav{display:flex;}
+  #titulo{
+    height:140px;
+    max-width:100%;
+    line-height:200px;
+  }
+}
+
+ /*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+ .listaJugadores{display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+   grid-template-rows:1fr 1fr 1fr;}
+  
+  }
+
+ /*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1600px) { 
+  .listaJugadores{display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr;
+}
